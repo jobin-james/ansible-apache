@@ -23,7 +23,10 @@ No dependencies
 Example Playbook
 ----------------
 
-run the playbook ansible-playbook -i test/inventory apacheconfig.yml --extra-vars "domain=domainname"
+run the playbook 
+
+   ansible-playbook -i test/inventory apacheconfig.yml --extra-vars "domain=domainname"
+   
 License
 -------
 
