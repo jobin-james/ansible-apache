@@ -5,6 +5,5 @@
     state: present
   vars:
     packages:
-    - httpd
     - htop
     - apache2
